@@ -37,8 +37,8 @@ td {
     background-color:transparent!important;
     border: 1px solid white !important;
     color: #FDFDFD !important;
-    font: bold 15px Arial !important;
-    margin: 5px 7px 7px 0px !important;
+    font: normal 16px Arial !important;
+    margin: 5px 18px 7px -11px !important;
     transition: all .3s ease-in-out;
 }
 
@@ -51,14 +51,14 @@ td {
 #bd{
     background-color: transparent !important;
     position: absolute;
-    left: 7px;
-    top: 106px;
+    left: 18px;
+    top: 108px;
     transition: all .3s ease-in-out;s
 }
 
 .first-of-type {
     color: #0b0205;
-    background-color: #ffd35d; 
+    background-color: #FFD35D; 
     border-radius: 4px;
     transition: all .3s ease-in-out;
 }
@@ -68,7 +68,8 @@ td {
 }
 
 .yuimenubaritemlabel {
-    font-size: 18px !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
     padding: 10px !important;
     color: #233048 !important;
 }
@@ -83,7 +84,8 @@ fieldset {
 }
 
 table.tablesorter thead tr .header{
-   padding: 1rem 1rem 1rem 1rem; 
+   padding: 1rem; 
+   color: #233048;
 }
 
 
@@ -93,7 +95,7 @@ table.tablesorter thead tr .header{
 
 
 table.tablesorter thead tr th{
-  background-color: #ffd35d;
+  background-color: #FFD35D;
   border: 1px solid #cca847;
   font-size: 10pt;
   padding:0 10px !important;
@@ -244,28 +246,11 @@ table[width="95%"] table {
     text-decoration: none !important;
 }
 
-
-/*Butang carian-----------------------------------------*/
-
-input[src*="carian.gif"] {
-    width: 67px;
-    height:15px;
-    display: inline-block;
-    background-image: url(svg/cari.svg);
-    background-size:cover;
-    padding: 1em;
-    margin-left: 94%;
-    border-radius: 6px;
+.yuimenubar {
+    background-color: transparent !important;
 }
 
-
-/*Butang tambah------------------------------*/
-
-img[src*="tambah.gif"]{
-    display: none;
-}
-
-a[href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=2"] { 
+BAK_a[href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=2"] { 
     width: 68px;
     height:15px;
     display: inline-block;
@@ -276,6 +261,28 @@ a[href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=2"] {
     border-radius: 6px;
 }
 
-.yuimenubar {
-    background-color: transparent !important;
+[class^=materialize_button], input[src*="carian.gif"],
+.form_contents td[align=right] a[href*="uicontroller.jsp"] {
+    height: 0;
+    width: 0;
+    display: inline-block;
+    padding: 20px 50px !important;
+    color: #233048 !important;
+    background-color: #FFD35D !important;
+    border-radius: 4px !important;
+    border: 1px solid #CCA847 !important;
+    transition: all .3s ease-in-out;
+    cursor: pointer !important;
+}
+
+.materialize_button_carian, input[src*="carian.gif"] {
+    background-image: url("materialize_button_carian.svg");
+}
+
+.materialize_button_tambah {
+    background-image: url("materialize_button_tambah.svg");
+}
+
+.form_contents td[align=right] a[href*="uicontroller.jsp"] img {
+    display: none;
 }
