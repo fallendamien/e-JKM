@@ -1,5 +1,9 @@
 /*Breadcrumb*/
 
+body {
+    margin: 0;
+}
+
 .styleNavigator {
     padding:1rem ;
     color: #FDFDFD;
@@ -25,8 +29,6 @@ td {
 
 #modernbricksmenu2 {
     border-top: 2px solid rgba(221, 34, 237, 0) !important;
-    margin-left: 0.5rem;
-    
 }
 
 #modernbricksmenu2 a{
@@ -36,7 +38,7 @@ td {
     border: 1px solid white !important;
     color: #FDFDFD !important;
     font: bold 15px Arial !important;
-    margin:6px 8px 6px 0px !important;
+    margin: 5px 7px 7px 0px !important;
     
 }
 
