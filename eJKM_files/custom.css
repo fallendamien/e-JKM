@@ -63,10 +63,6 @@ td {
     transition: all .3s ease-in-out;
 }
 
-.first-of-type:hover{
-    background-color: #FFD400 !important;
-}
-
 .yuimenubaritemlabel {
     font-size: 16px !important;
     text-transform: uppercase !important;
@@ -261,8 +257,7 @@ BAK_a[href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=2"] 
     border-radius: 6px;
 }
 
-[class^=materialize_button], input[src*="carian.gif"],
-.form_contents td[align=right] a[href*="uicontroller.jsp"] {
+[class^=materialize_button] {
     height: 0;
     width: 0;
     display: inline-block;
@@ -273,16 +268,15 @@ BAK_a[href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=2"] 
     border: 1px solid #CCA847 !important;
     transition: all .3s ease-in-out;
     cursor: pointer !important;
+    margin: 0 0 0 6px !important;
+    transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
-.materialize_button_carian, input[src*="carian.gif"] {
+.materialize_button_carian {
     background-image: url("materialize_button_carian.svg");
 }
 
 .materialize_button_tambah {
     background-image: url("materialize_button_tambah.svg");
-}
-
-.form_contents td[align=right] a[href*="uicontroller.jsp"] img {
-    display: none;
 }
