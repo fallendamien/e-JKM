@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="122.834px" height="50.334px" viewBox="0 0 122.834 50.334" enable-background="new 0 0 122.834 50.334"
+	 xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1.5625" y1="25.167" x2="121.2715" y2="25.167">
+	<stop  offset="0" style="stop-color:#CCCCCC"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<rect y="0" fill="url(#SVGID_1_)" width="122.834" height="50.335"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="61.417" y1="57.0171" x2="61.417" y2="3.6354">
+	<stop  offset="0" style="stop-color:#CCCCCC"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<rect x="1" y="1" fill="url(#SVGID_2_)" width="120.834" height="48.335"/>
+<g>
+	<g opacity="0.25">
+		<text transform="matrix(1 0 0 1 6.6675 40.4341)" fill="#010101" font-family="'Helvetica'" font-size="21">Tambah</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 6.6675 40.9341)" fill="#58595B" font-family="'Helvetica'" font-size="21">Tambah</text>
+	</g>
+</g>
+<g>
+	<path fill="#58595B" d="M104.479,33.707c-4.084-1.473-5.389-2.715-5.389-5.374c0-1.598,1.246-1.076,1.793-4
+		c0.227-1.212,1.328-0.02,1.539-2.788c0-1.103-0.602-1.378-0.602-1.378s0.307-1.633,0.426-2.89c0.148-1.564-0.914-5.61-6.58-5.61
+		c-5.668,0-6.73,4.046-6.582,5.61c0.119,1.257,0.426,2.89,0.426,2.89s-0.602,0.275-0.602,1.378c0.211,2.769,1.313,1.576,1.537,2.788
+		c0.549,2.924,1.795,2.402,1.795,4c0,2.659-1.305,3.901-5.387,5.374c-0.492,0.176-1.666,0.453-2.66,0.882v6.578h26.223v-3.451
+		C110.416,36.69,108.574,35.184,104.479,33.707L104.479,33.707z M112.055,24.778v-4.917h-3.277v4.917h-4.918v3.277h4.918v4.917
+		h3.277v-4.917h4.916v-3.277H112.055z M112.055,24.778"/>
+</g>
+</svg>

@@ -106,6 +106,8 @@ table.tablesorter tbody td {
 }
 
 
+/*Butang dust bin--------------------------------*/
+
 a[onclick*=confirmDelete] {
     width: 20px;
     height: 30px;
@@ -156,3 +158,46 @@ body [style*=header_biru] tbody tr[style*="70.0pt"]{
     background: #233048;
     height: 70px !important;   
 }
+
+
+
+/*Butang carian-----------------------------------------*/
+
+
+input[src*="carian.gif"] {
+    display: none;
+}
+
+
+input[src*="carian.gif"] {
+    
+width: 67px;
+height:15px;
+display: inline-block;
+background-image: url(svg/cari.svg);
+background-size:cover;
+padding: 1em;
+margin-left: 94%;
+border-radius: 6px;
+}
+
+
+/*Butang tambah------------------------------*/
+
+img[src*="tambah.gif"]{
+    display: none;
+}
+
+a[href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=2"] {
+    
+width: 68px;
+height:15px;
+display: inline-block;
+background-image: url(svg/tambah.svg);
+background-size:cover; 
+padding: 1em;
+margin-left: 84%;
+border-radius: 6px;
+
+}
+
