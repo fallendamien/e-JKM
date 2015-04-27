@@ -1,3 +1,3 @@
 - Alihkan button TAMBAH bagi setiap module ke sebelah kiri button CARIAN
-- Bagi button TAMBAH, masukkan class "materialize_button_tambah"
-- Bagi button CARIAN, masukkan class "materialize_button_carian"
+- Jika button TAMBAH tidak mempunyai styling yg terkini, masukkan class "materialize_button_tambah"
+- Jika button CARIAN tidak mempunyai styling yg terkini, masukkan class "materialize_button_carian"

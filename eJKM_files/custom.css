@@ -257,7 +257,7 @@ BAK_a[href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=2"] 
     border-radius: 6px;
 }
 
-[class^=materialize_button] {
+[class^=materialize_button], .form_contents > td > input[src*="carian"], .form_contents > td > a[href*="uicontroller"] {
     height: 0;
     width: 0;
     display: inline-block;
@@ -273,10 +273,10 @@ BAK_a[href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=2"] 
     transition: all .3s ease-in-out;
 }
 
-.materialize_button_carian {
+.materialize_button_carian, .form_contents > td > input[src*="carian"] {
     background-image: url("materialize_button_carian.svg");
 }
 
-.materialize_button_tambah {
+.materialize_button_tambah, .form_contents > td > a[href*="uicontroller"] {
     background-image: url("materialize_button_tambah.svg");
 }
