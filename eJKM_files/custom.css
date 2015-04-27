@@ -1,0 +1,158 @@
+/*Breadcrumb*/
+
+.styleNavigator {
+    padding:1rem ;
+    color: #FDFDFD;
+    background-color:#9AB4CB;
+}
+
+
+/*border bawah sub-title*/
+.styleOrangeHR {
+    color: #d8d8d8;
+}
+
+td {
+   padding: 0px;
+
+}
+
+[style*=header_biru] td[halign=center] {
+ padding-right: 2.7%;
+}
+
+/* menu "KK" "PA" dan "KAUNTER" */
+
+#modernbricksmenu2 {
+    border-top: 2px solid rgba(221, 34, 237, 0) !important;
+    margin-left: 0.5rem;
+    
+}
+
+#modernbricksmenu2 a{
+    padding: 10px !important;
+    border-radius: 4px;
+    background-color:transparent!important;
+    border: 1px solid white !important;
+    color: #FDFDFD !important;
+    font: bold 15px Arial !important;
+    margin:6px 8px 6px 0px !important;
+    
+}
+
+#modernbricksmenu2 a:hover{
+    background-color: #2f569b !important;
+}
+
+/*Kotak "menu" kat atas kiri*/
+
+#bd{
+    position: absolute;   
+    background-color:transparent!important;
+    
+}
+
+.first-of-type{
+    color: #0b0205;
+    background-color: #ffd35d; 
+}
+
+
+.yuimenubaritemlabel{
+    color: #000000 !important;
+    font-size: 18px !important;
+    
+}
+
+
+/*isi kandungan*/
+
+fieldset {
+    padding: 3rem;
+    border: 1px solid #e0e0e0;
+    margin: 0rem;
+}
+
+table.tablesorter thead tr .header{
+   padding: 1rem 1rem 1rem 1rem; 
+}
+
+
+.pager{
+   margin: 1rem 0 1rem 0; 
+}
+
+
+table.tablesorter thead tr th{
+  background-color: #ffd35d;
+  border: 1px solid #cca847;
+  font-size: 10pt;
+  padding:0 10px !important;
+    height: 50px;
+    text-align: center;
+    
+}
+
+table.tablesorter thead tr th:nth-child(1){
+    
+}
+
+table.tablesorter tbody td {
+  color: #3D3D3D;
+  padding: 2px;
+  background-color: #FFF;
+  vertical-align: middle;
+  border: 1px solid #e0e0e0;
+}
+
+
+a[onclick*=confirmDelete] {
+    width: 20px;
+    height: 30px;
+    display: inline-block;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIzNDMuNzVweCIgaGVpZ2h0PSI1MDBweCIgdmlld0JveD0iMzI4LjEyNSAwIDM0My43NSA1MDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMzI4LjEyNSAwIDM0My43NSA1MDAiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxnPg0KCQkJPHBhdGggZmlsbD0iIzM1NDI0QyIgZD0iTTY0MC42MjUsMzEuMjVoLTYyLjVjMC0xNy4yNS0xNC0zMS4yNS0zMS4yNS0zMS4yNWgtOTMuNzVjLTE3LjI1LDAtMzEuMjUsMTQtMzEuMjUsMzEuMjVoLTYyLjUNCgkJCQljLTE3LjI1LDAtMzEuMjUsMTQtMzEuMjUsMzEuMjVoMzQzLjc1QzY3MS44NzUsNDUuMjUsNjU3Ljg3NSwzMS4yNSw2NDAuNjI1LDMxLjI1eiIvPg0KCQkJPHBhdGggZmlsbD0iIzM1NDI0QyIgZD0iTTMyOC4xMjUsNDY4Ljc1YzAsMTcuMjUsMTQsMzEuMjUsMzEuMjUsMzEuMjVoMjgxLjI1YzE3LjI1LDAsMzEuMjUtMTQsMzEuMjUtMzEuMjV2LTM3NWgtMzQzLjc1VjQ2OC43NXoNCgkJCQkgTTU3OC4xMjUsMTcxLjg3NWMwLTguNjI1LDcuMDMxLTE1LjYyNSwxNS42MjUtMTUuNjI1czE1LjYyNSw3LDE1LjYyNSwxNS42MjV2MjUwYzAsOC41OTQtNy4wMzEsMTUuNjI1LTE1LjYyNSwxNS42MjUNCgkJCQlzLTE1LjYyNS03LjAzMS0xNS42MjUtMTUuNjI1VjE3MS44NzV6IE00ODQuMzc1LDE3MS44NzVjMC04LjYyNSw3LTE1LjYyNSwxNS42MjUtMTUuNjI1YzguNTk0LDAsMTUuNjI1LDcsMTUuNjI1LDE1LjYyNXYyNTANCgkJCQljMCw4LjU5NC03LjAzMSwxNS42MjUtMTUuNjI1LDE1LjYyNWMtOC42MjUsMC0xNS42MjUtNy4wMzEtMTUuNjI1LTE1LjYyNVYxNzEuODc1eiBNMzkwLjYyNSwxNzEuODc1DQoJCQkJYzAtOC42MjUsNy0xNS42MjUsMTUuNjI1LTE1LjYyNXMxNS42MjUsNywxNS42MjUsMTUuNjI1djI1MGMwLDguNTk0LTcsMTUuNjI1LTE1LjYyNSwxNS42MjVzLTE1LjYyNS03LjAzMS0xNS42MjUtMTUuNjI1DQoJCQkJVjE3MS44NzV6Ii8+DQoJCTwvZz4NCgk8L2c+DQo8L2c+DQo8L3N2Zz4NCg==);
+    background-size: 100%;
+}
+
+a[onclick*=confirmDelete] img {
+    display:none;
+}
+
+
+tbody tr.form_contents td input{
+    margin-bottom: 10px;
+    padding: 6px;
+}
+    
+table[width="95%"] table {
+    width: 100%;
+}
+
+[style*=header_biru] {
+    background-color: #233048 !important;
+      
+}
+
+#pagesize{
+    padding: 6px;
+}
+
+
+
+/*
+[style*=header_biru] td[colspan="2"][bgcolor="#628BBD"]{
+    padding: 1em;
+}
+*/
+
+body [style*=header_biru] tbody tr[style*="10.0pt"]{
+    background: #233048;
+    height: 30px !important;   
+}
+
+
+
+body [style*=header_biru] tbody tr[style*="70.0pt"]{
+    background: #233048;
+    height: 70px !important;   
+}
