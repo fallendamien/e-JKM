@@ -1,4 +1,4 @@
-/*Breadcrumb*/
+/* ======================================================== UXUI Custom CSS ======================================================== */
 
 body {
     margin: 0;
@@ -54,12 +54,13 @@ td {
     position: absolute;
     left: 18px;
     top: 108px;
-    transition: all .3s ease-in-out;s
+    transition: all .3s ease-in-out;
 }
 
 .first-of-type {
     color: #0b0205;
-    background-color: #FFD35D; 
+    background-color: #FFD35D;
+    background-image: none !important;
     border-radius: 4px;
     transition: all .3s ease-in-out;
 }
