@@ -1,9 +1,0 @@
- .stage-header.head-number{
-    text-shadow: none !important;
-}
-
-
-#tmm-form-wizard .stage-header.head-number{
-    line-height: 3.1rem;
-    padding-right: 0.1rem;
-}
