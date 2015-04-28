@@ -69,6 +69,7 @@ td {
     text-transform: uppercase !important;
     padding: 10px !important;
     color: #233048 !important;
+    text-decoration: none !important;
 }
 
 
@@ -287,4 +288,30 @@ BAK_a[href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=2"] 
 
 .body, td, th, input, select {
     font-size: 14px !important;
+}
+
+#communication {
+    left: -20px !important;
+    top: 45px !important;
+    box-shadow: 4px 4px 5px #888888 !important;
+    border: 0 !important;
+    background-color: #2D2D2D !important;
+}
+
+.yuimenu ul {
+    border: 0 !important;
+}
+
+.yuimenuitemlabel {
+    font-size: 14px !important;
+    color: white !important;
+    padding: 5px 20px !important;
+}
+
+.yuimenuitemlabel:hover {
+    color: #FFD35D !important;
+}
+
+.yuimenubaritem-selected, .yuimenuitem-select {
+    background-color: transparent !important;
 }
