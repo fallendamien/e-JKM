@@ -35,6 +35,7 @@ td {
     padding: 10px !important;
     border-radius: 4px;
     background-color:transparent!important;
+    background-image: none !important;
     border: 1px solid white !important;
     color: #FDFDFD !important;
     font: normal 14px Arial !important;
@@ -279,6 +280,10 @@ BAK_a[href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=2"] 
 
 .materialize_button_tambah, .form_contents > td > a[href*="uicontroller"] {
     background-image: url("materialize_button_tambah.svg");
+}
+
+.materialize_button_tambah > img, .form_contents > td > a[href*="uicontroller"] > img {
+    display: none;
 }
 
 .body, td, th, input, select {
