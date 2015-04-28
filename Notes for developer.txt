@@ -1,3 +1,4 @@
 - Alihkan button TAMBAH bagi setiap module ke sebelah kiri button CARIAN
 - Jika button TAMBAH tidak mempunyai styling yg terkini, masukkan class "materialize_button_tambah"
 - Jika button CARIAN tidak mempunyai styling yg terkini, masukkan class "materialize_button_carian"
+- Jika button DELETE tidak mempunyai styling yg terkini, masukkan class "table_icon_delete"

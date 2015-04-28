@@ -10,6 +10,11 @@ body {
     background-color:#9AB4CB;
 }
 
+.styleNavigator p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 
 /*border bawah sub-title*/
 .styleOrangeHR {
@@ -57,12 +62,15 @@ td {
     transition: all .3s ease-in-out;
 }
 
-.first-of-type {
+#productsandservices > .bd > .first-of-type { 
     color: #0b0205;
     background-color: #FFD35D;
-    background-image: none !important;
     border-radius: 4px;
     transition: all .3s ease-in-out;
+}
+
+#productsandservices > .bd > .first-of-type > li {
+    background-image: none !important;
 }
 
 .yuimenubaritemlabel {
@@ -71,6 +79,15 @@ td {
     padding: 10px !important;
     color: #233048 !important;
     text-decoration: none !important;
+}
+
+.yuimenubaritemlabel::after {
+    content: "";
+    height: 25px;
+    left: 0;
+    position: absolute;
+    top: 37px;
+    width: 100%;
 }
 
 
@@ -115,23 +132,38 @@ table.tablesorter tbody td {
   border: 1px solid #E0E0E0;
 }
 
-
-/*Butang dust bin--------------------------------*/
-
-a[onclick*=confirmDelete] {
-    width: 20px;
+[class*="table_icon_"], a[onclick*=confirmDelete] {
+    width: 22px;
     height: 30px;
     display: inline-block;
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIzNDMuNzVweCIgaGVpZ2h0PSI1MDBweCIgdmlld0JveD0iMzI4LjEyNSAwIDM0My43NSA1MDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMzI4LjEyNSAwIDM0My43NSA1MDAiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxnPg0KCQkJPHBhdGggZmlsbD0iIzM1NDI0QyIgZD0iTTY0MC42MjUsMzEuMjVoLTYyLjVjMC0xNy4yNS0xNC0zMS4yNS0zMS4yNS0zMS4yNWgtOTMuNzVjLTE3LjI1LDAtMzEuMjUsMTQtMzEuMjUsMzEuMjVoLTYyLjUNCgkJCQljLTE3LjI1LDAtMzEuMjUsMTQtMzEuMjUsMzEuMjVoMzQzLjc1QzY3MS44NzUsNDUuMjUsNjU3Ljg3NSwzMS4yNSw2NDAuNjI1LDMxLjI1eiIvPg0KCQkJPHBhdGggZmlsbD0iIzM1NDI0QyIgZD0iTTMyOC4xMjUsNDY4Ljc1YzAsMTcuMjUsMTQsMzEuMjUsMzEuMjUsMzEuMjVoMjgxLjI1YzE3LjI1LDAsMzEuMjUtMTQsMzEuMjUtMzEuMjV2LTM3NWgtMzQzLjc1VjQ2OC43NXoNCgkJCQkgTTU3OC4xMjUsMTcxLjg3NWMwLTguNjI1LDcuMDMxLTE1LjYyNSwxNS42MjUtMTUuNjI1czE1LjYyNSw3LDE1LjYyNSwxNS42MjV2MjUwYzAsOC41OTQtNy4wMzEsMTUuNjI1LTE1LjYyNSwxNS42MjUNCgkJCQlzLTE1LjYyNS03LjAzMS0xNS42MjUtMTUuNjI1VjE3MS44NzV6IE00ODQuMzc1LDE3MS44NzVjMC04LjYyNSw3LTE1LjYyNSwxNS42MjUtMTUuNjI1YzguNTk0LDAsMTUuNjI1LDcsMTUuNjI1LDE1LjYyNXYyNTANCgkJCQljMCw4LjU5NC03LjAzMSwxNS42MjUtMTUuNjI1LDE1LjYyNWMtOC42MjUsMC0xNS42MjUtNy4wMzEtMTUuNjI1LTE1LjYyNVYxNzEuODc1eiBNMzkwLjYyNSwxNzEuODc1DQoJCQkJYzAtOC42MjUsNy0xNS42MjUsMTUuNjI1LTE1LjYyNXMxNS42MjUsNywxNS42MjUsMTUuNjI1djI1MGMwLDguNTk0LTcsMTUuNjI1LTE1LjYyNSwxNS42MjVzLTE1LjYyNS03LjAzMS0xNS42MjUtMTUuNjI1DQoJCQkJVjE3MS44NzV6Ii8+DQoJCTwvZz4NCgk8L2c+DQo8L2c+DQo8L3N2Zz4NCg==);
     background-size: 100%;
 }
 
-a[onclick*=confirmDelete] img {
-    display:none;
+.table_icon_delete, a[onclick*=confirmDelete] {
+    background-image: url("table_icon_delete.svg");
 }
 
+.table_icon_relation {
+    background-image: url("table_icon_relation.svg");
+}
 
-tbody tr.form_contents td input {
+.table_icon_report_view {
+    background-image: url("table_icon_report_view.svg");
+}
+
+.table_icon_report_add {
+    background-image: url("table_icon_report_add.svg");
+}
+
+[class^=table_icon_] img,
+.materialize_button_tambah img,
+.materialize_button_carian img,
+.form_contents > td > input[src*="carian"] img,
+a[onclick*=confirmDelete] img {
+    display: none;
+}
+
+tbody tr.form_contents td input, tbody tr.form_contents td select {
     margin-bottom: 10px;
     padding: 6px;
 }
@@ -192,7 +224,7 @@ table[width="95%"] table {
     opacity: 0;
 }
 
-[style*="header_biru"] tbody tr[style*="10.0pt"] td:nth-of-type(2) div > span:nth-of-type(1):after {
+[style*="header_biru"] tbody tr[style*="10.0pt"] td:nth-of-type(2) div > span:nth-of-type(1)::after {
     content:"\a";
     white-space: pre;
 }
@@ -249,18 +281,7 @@ table[width="95%"] table {
     background-color: transparent !important;
 }
 
-BAK_a[href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=2"] { 
-    width: 68px;
-    height:15px;
-    display: inline-block;
-    background-image: url(svg/tambah.svg);
-    background-size:cover; 
-    padding: 1em;
-    margin-left: 84%;
-    border-radius: 6px;
-}
-
-[class^=materialize_button], .form_contents > td > input[src*="carian"], .form_contents > td > a[href*="uicontroller"] {
+[class^=materialize_button], .form_contents > td > input[src*="carian"] {
     height: 0;
     width: 0;
     display: inline-block;
@@ -279,38 +300,48 @@ BAK_a[href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=2"] 
     background-image: url("materialize_button_carian.svg");
 }
 
-.materialize_button_tambah, .form_contents > td > a[href*="uicontroller"] {
+.materialize_button_tambah {
     background-image: url("materialize_button_tambah.svg");
-}
-
-.materialize_button_tambah > img, .form_contents > td > a[href*="uicontroller"] > img {
-    display: none;
 }
 
 .body, td, th, input, select {
     font-size: 14px !important;
 }
 
+.yuimenu, .yuimenu ul {
+    border: 0 !important;
+    padding: 5px 0 !important;
+    background-color: #2D2D2D !important;
+}
+
+.yuimenu {
+    border-left: 1px solid #FFD35D !important;
+}
+
 #communication {
     left: -20px !important;
-    top: 45px !important;
+    top: 44px !important;
     box-shadow: 4px 4px 5px #888888 !important;
     border: 0 !important;
     background-color: #2D2D2D !important;
 }
 
-.yuimenu ul {
-    border: 0 !important;
-}
-
-.yuimenuitemlabel {
+.yuimenuitemlabel, .yuimenuitemlabel-selected {
     font-size: 14px !important;
     color: white !important;
+    text-decoration: none !important;
     padding: 5px 20px !important;
+    background-color: #2D2D2D !important;
 }
 
-.yuimenuitemlabel:hover {
+.yuimenuitemlabel-selected {
     color: #FFD35D !important;
+}
+
+.yuimenuitemlabel:hover, .yuimenuitemlabel-selected:hover {
+    color: #FFD35D !important;
+    text-decoration: none !important;
+    background-color: #2D2D2D !important;
 }
 
 .yuimenubaritem-selected, .yuimenuitem-select {
