@@ -271,7 +271,6 @@ BAK_a[href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=2"] 
     cursor: pointer !important;
     margin: 0 0 0 6px !important;
     transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
 }
 
 .materialize_button_carian, .form_contents > td > input[src*="carian"] {
