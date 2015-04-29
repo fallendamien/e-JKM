@@ -1,0 +1,36 @@
+.styleOrangeTabActive {
+    background-color: #FFD35D;
+}
+
+.styleOrangeTab {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #e2e2e2;
+}
+
+.styleOrangeTabActive a span,
+.styleOrangeTab a span,
+.styleOrangeTabActive a,
+.styleOrangeTab a {
+    padding: 0 !important;
+}
+
+.styleOrange td {
+    padding: 5px 10px;
+    text-align: center;
+    width: 13rem;
+}
+
+.styleOrange a,
+.styleOrange span {
+    display: inline !important;
+}
+
+td.styleOrangeTab:hover {
+    background: #d3d3d3;
+}
+
+.styleOrangeTab a:hover {
+    color:black;
+    text-decoration: none;
+}
