@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    counter-reset: wizardcounter;
 }
 
 .styleNavigator {
@@ -22,15 +23,12 @@ body {
 }
 
 td {
-   padding: 0px;
-
+    padding: 0px;
 }
 
 [style*=header_biru] td[halign=center] {
  padding-right: 2.7%;
 }
-
-/* menu "KK" "PA" dan "KAUNTER" */
 
 #modernbricksmenu2 {
     border-top: 2px solid rgba(221, 34, 237, 0) !important;
@@ -39,7 +37,7 @@ td {
 #modernbricksmenu2 a{
     padding: 10px !important;
     border-radius: 4px;
-    background-color:transparent!important;
+    background-color: transparent!important;
     background-image: none !important;
     border: 1px solid white !important;
     color: #FDFDFD !important;
@@ -51,8 +49,6 @@ td {
 #modernbricksmenu2 a:hover{
     background-color: #2f569b !important;
 }
-
-/*Kotak "menu" kat atas kiri*/
 
 #bd{
     background-color: transparent !important;
@@ -90,9 +86,6 @@ td {
     width: 100%;
 }
 
-
-/*isi kandungan*/
-
 fieldset {
     padding: 3rem;
     border: 1px solid #E0E0E0;
@@ -100,36 +93,29 @@ fieldset {
 }
 
 table.tablesorter thead tr .header{
-   padding: 1rem; 
-   color: #233048;
+    padding: 1rem; 
+    color: #233048;
 }
-
 
 .pager{
    margin: 1rem 0 1rem 0; 
 }
 
-
 table.tablesorter thead tr th{
-  background-color: #FFD35D;
-  border: 1px solid #cca847;
-  font-size: 10pt;
-  padding:0 10px !important;
+    background-color: #FFD35D;
+    border: 1px solid #cca847;
+    font-size: 10pt;
+    padding: 0 10px !important;
     height: 50px;
-    text-align: center;
-    
-}
-
-table.tablesorter thead tr th:nth-child(1){
-    
+    text-align: center; 
 }
 
 table.tablesorter tbody td {
-  color: #3D3D3D;
-  padding: 2px;
-  background-color: #FFF;
-  vertical-align: middle;
-  border: 1px solid #E0E0E0;
+    color: #3D3D3D;
+    padding: 2px;
+    background-color: #FFF;
+    vertical-align: middle;
+    border: 1px solid #E0E0E0;
 }
 
 [class*="table_icon_"], a[onclick*=confirmDelete] {
@@ -187,13 +173,6 @@ table[width="95%"] table {
 #pagesize{
     padding: 6px;
 }
-
-
-/*
-[style*=header_biru] td[colspan="2"][bgcolor="#628BBD"]{
-    padding: 1em;
-}
-*/
 
 [style*=header_biru] {
     background-color: #233048 !important;
@@ -302,6 +281,121 @@ table[width="95%"] table {
 
 .materialize_button_tambah {
     background-image: url("materialize_button_tambah.svg");
+}
+
+.materialize_button_kembali {
+    background-image: url("materialize_button_kembali.svg");
+}
+
+.materialize_button_seterusnya {
+    background-image: url("materialize_button_seterusnya.svg");
+}
+
+.materialize_button_selesai {
+    background-image: url("materialize_button_selesai.svg");
+}
+
+.wizard {
+    width: 250px;
+    height: 208px;
+    padding: 0px 20px 0 80px;
+    color: black;
+    font-size: 14px;
+    font-family: Arial;
+    position: relative;
+    background-color: #EEEFF0;
+}
+
+.wizard:first-of-type, .wizard:last-of-type {
+    height: 130px;
+}
+
+.wizard:first-of-type {
+    padding-top: 20px !important;
+}
+
+.wizard:last-of-type {
+    height: 179px;
+}
+
+.wizard .title::before {
+    counter-increment: wizardcounter;
+    content: counter(wizardcounter);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 50px;
+    height: 100%;
+    padding-right: 2px;
+    position: absolute;
+    margin-left: -60px;
+    background-repeat: no-repeat;
+}
+
+.wizard.current .title::before {
+    line-height: 208px;
+    margin-top: -79px;
+    background-image: url("wizard_2_current.svg");
+}
+
+.wizard.completed .title::before {
+    line-height: 208px;
+    margin-top: -79px;
+    background-image: url("wizard_2_completed.svg");
+}
+
+.wizard.disabled .title::before {
+    line-height: 208px;
+    margin-top: -79px;
+    background-image: url("wizard_2_disabled.svg");
+}
+
+.wizard:first-of-type.current .title::before {
+    line-height: 50px;
+    margin-top: 0px;
+    background-image: url("wizard_1_current.svg");
+}
+
+.wizard:first-of-type.completed .title::before {
+    line-height: 50px;
+    margin-top: 0px;
+    background-image: url("wizard_1_completed.svg");
+}
+
+.wizard:first-of-type.disabled .title::before {
+    line-height: 50px;
+    margin-top: 0px;
+    background-image: url("wizard_1_disabled.svg");
+}
+
+.wizard:last-of-type.current .title::before {
+    background-image: url("wizard_3_current.svg");
+}
+
+.wizard:last-of-type.completed .title::before {
+    background-image: url("wizard_3_completed.svg");
+}
+
+.wizard:last-of-type.disabled .title::before {
+    background-image: url("wizard_3_disabled.svg");
+}
+
+.wizard:not(:first-of-type) .title {
+    padding-top: 79px;
+}
+
+.wizard .desc {
+    color: #737373;
+}
+
+.wizard.completed .desc::after {
+    content: "";
+    background-image: url("wizard_checked.svg");
+    display: block;
+    margin-top: 4px;
+    width: 26px;
+    height: 26px;
+    position: absolute;
 }
 
 .body, td, th, input, select {

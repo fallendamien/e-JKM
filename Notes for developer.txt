@@ -1,4 +1,27 @@
+Salam,
+
+Target module: https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&cmd=1
+
+Sebagai uji kaji, secara amnya kami dah CSS kan most element tanpa programmer perlu ubah apa-apa. Cuma button dan wizard sahaja perlu modify.
+
+
+==============================================
+Button
+==============================================
 - Alihkan button TAMBAH bagi setiap module ke sebelah kiri button CARIAN
-- Jika button TAMBAH tidak mempunyai styling yg terkini, masukkan class "materialize_button_tambah"
-- Jika button CARIAN tidak mempunyai styling yg terkini, masukkan class "materialize_button_carian"
-- Jika button DELETE tidak mempunyai styling yg terkini, masukkan class "table_icon_delete"
+- Button TAMBAH mestilah sentiasa wujud tanpa perlu user click pada button CARIAN
+- Jika button TAMBAH, CARIAN, DELETE tidak mempunyai styling yg terkini, masukkan class "materialize_button_tambah", "materialize_button_carian", "table_icon_delete"
+
+Cth button TAMBAH yg asal:
+<a href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&amp;cmd=2"><img border="0" src="eJKM_files/tambah.gif" alt="Tambah"></a>
+
+Selepas dimasukkan class:
+<a class="materialize_button_tambah" href="https://oc4j/eJKM/KKTidakTerkawal/uicontroller.jsp?m_cmd=23&amp;cmd=2"><img border="0" src="eJKM_files/tambah.gif" alt="Tambah"></a>
+
+
+==============================================
+Form Wizard (aka timeline, wizard, step, tab progress)
+==============================================
+Memandangkan wujud module yg mempunyai both tab dan wizard, kami design wizard tersebut supaya berada di sebelah kiri bukannya atas. Dilampirkan structure wizard yg perlu programmer ikut. CSS telah diupload ke server development jadi programmer hanya perlu ubah structure HTML pada module masing2 dan tidak perlu lagi include file css
+
+
