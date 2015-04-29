@@ -90,9 +90,35 @@
                     padding: 10px 20px;
                     bottom: 0px;
                 }
-                .login_footer_gov span {
+                .login_footer_download span {
                     cursor: pointer;
                 }
+                .login_error {
+                    transition: all .3s ease-out;
+                    width: 100%;
+                    height: 0;
+                    text-align: center;
+                    line-height: 110px;
+                    background-color: #E74C3C;
+                    border-radius: 4px;
+                    margin-top: 5px;
+                    position: absolute;
+                    z-index: 10;
+                }
+                .login_error.active {
+                    height: 110px;
+                }
+                .login_error span {
+                    transition: all .3s ease-out;
+                    -webkit-transition-delay: .3s; /* Safari */
+                    transition-delay: .3s;
+                    opacity: 0;
+                    color: white;
+                }
+                .login_error.active span {
+                    opacity: 1;
+                }
+                
                 @media all and (max-width: 945px) {
                     .login_footer {
                         height: 115px;
@@ -126,9 +152,12 @@
 	<body>
         <div class="login_container">
             <img class="login_logo" src="login_files/login_logo.svg">
+            <div class="login_error">
+                <span id="login_error_msg">Nama pengguna atau kata laluan tidak betul!</span>
+            </div>
             <div><div class="login_prefix"><img src="login_files/login_username.svg"></div><input type="text" id="username" placeholder="nama pengguna"></div>
             <div><div class="login_prefix"><img src="login_files/login_password.svg"></div><input type="text" id="password" placeholder="kata laluan"></div>
-            <button class="login_button">Masuk</button>
+            <button class="login_button" onclick="preSubmit()">Masuk</button>
         </div>
         <div class="login_footer">Hakcipta Terpelihara &copy; <span id="login_year">0000</span> Jabatan Kebajikan Masyarakat Malaysia.</div>
         <div class="login_footer_download">
@@ -141,6 +170,17 @@
         </div>
         <script>
             document.getElementById('login_year').innerHTML = new Date().getFullYear();
+            
+            function preSubmit() {
+                if(document.getElementsByClassName('login_button')[0].innerHTML == 'Cuba Lagi') {
+                    document.getElementsByClassName('login_error')[0].setAttribute('class', 'login_error');
+                    document.getElementsByClassName('login_button')[0].innerHTML = 'Masuk';
+                }
+                else {
+                    document.getElementsByClassName('login_error')[0].setAttribute('class', 'login_error active');
+                    document.getElementsByClassName('login_button')[0].innerHTML = 'Cuba Lagi';
+                }
+            }
         </script>
 	</body>
 </html>
