@@ -1,0 +1,272 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wizard {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #E6E7E8;
+    border-radius: 150px;
+    -webkit-transform: skew(0deg);
+    transform: skew(0deg);
+    margin-bottom: 5em;
+}
+
+.done {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #93C95C;
+    border-radius: 150px;
+    -webkit-transform: skew(0deg);
+    transform: skew(0deg);
+    margin-bottom: 5em;
+}
+
+.current {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #F26A5C;
+    border-radius: 150px;
+    -webkit-transform: skew(0deg);
+    transform: skew(0deg);
+    margin-bottom: 5em;
+}
+
+.title,
+.desc {
+    position: relative;
+    left: 10rem;
+    top: 3rem;
+    font-family: roboto;
+}
+
+.pos_rel {
+    position: relative;
+    width: 100px;
+    z-index: 1;
+}
+
+.pos_abs {
+    position: absolute;
+    z-index: 1;
+}
+
+.clear_bullet {
+    list-style-type: none;
+}
+
+.positioning {
+    position: relative;
+    top: -29em;
+    left: 4.3em;
+}
+
+.number_1 {
+    position: absolute;
+    top: 0.9em;
+    display: inline;
+    font-weight: bold;
+    color: #E6E7E8;
+    z-index: 1;
+}
+
+.number_2 {
+    position: absolute;
+    top: 8.1em;
+    display: inline;
+    font-weight: bold;
+    color: #9b9ea2;
+    z-index: 1;
+}
+
+.number_3 {
+    position: absolute;
+    top: 15.3em;
+    display: inline;
+    font-weight: bold;
+    color: #9b9ea2;
+    z-index: 1;
+}
+
+.number_4 {
+    position: absolute;
+    top: 22.5em;
+    display: inline;
+    font-weight: bold;
+    color: #9b9ea2;
+    z-index: 1;
+}
+
+.white {
+    color: #E6E7E8;
+}
+
+.title {
+    font-weight: bold;
+    color: #7c7c7c;
+}
+
+.desc {
+    font-size: 13px;
+    font-weight: normal;
+    color: #b1b1b1;
+}
+
+td fieldset {
+    position: relative;
+    top: 2rem;
+    left: 10rem;
+    font-family: roboto;
+    color: #989898
+}
+/*vertical line*/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.line {
+    position: absolute;
+    top: 9.4rem;
+    left: 74px;
+    height: 42rem;
+    width: 7px;
+    background-color: #E6E7E8;
+}
+
+.line_current_top {
+    position: absolute;
+    top: 9.3rem;
+    left: 74px;
+    height: 41px;
+    width: 7px;
+    background-color: #F26B5D;
+}
+
+.line_current_bottom {
+    position: absolute;
+    top: 11.9rem;
+    left: 74px;
+    height: 41px;
+    width: 7px;
+    background-color: #F26B5D;
+}
+
+.line_done_top {
+    position: absolute;
+    top: 9.3rem;
+    left: 74px;
+    height: 41px;
+    width: 7px;
+    background-color: #94CA5C;
+}
+
+.line_done_bottom {
+    position: absolute;
+    top: 11.9rem;
+    left: 74px;
+    height: 41px;
+    width: 7px;
+    background-color: #94CA5C;
+}
+
+fieldset {
+    width: 90%;
+    margin-right: 50em;
+    margin-left: 10em;
+    padding-bottom: 44em;
+}
+
+.materialize_button_seterusnya {
+    position: relative;
+    left: -1em;
+    top: 46em;
+    background-color: transparent;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: 1px solid #766844;
+    display: inline-block;
+    cursor: pointer;
+    color: #8e8e8e;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 16px 31px;
+    text-decoration: none;
+}
+
+.materialize_button_seterusnya:hover {
+    background-color: #FFD35D;
+}
+
+.materialize_button_seterusnya:active {
+    background-color: #ffe08e;
+}
+
+
+.tick_box_1 {
+    width: 2em;
+    height: 2em;
+    background-color: #93C95C;
+    position: absolute;
+    top: 8em;
+    left: 10em;
+}
+
+.tick_1 {
+    position: relative;
+    top: -22.2px;
+    right: -4.4px;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.tick_box_2 {
+    width: 2em;
+    height: 2em;
+    background-color: #93C95C;
+    position: absolute;
+    top: 9em;
+    left: 10em;
+}
+
+.tick_2 {
+    position: relative;
+    top: -22.2px;
+    right: -4.4px;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.tick_box_3 {
+    width: 2em;
+    height: 2em;
+    background-color: #93C95C;
+    position: absolute;
+    top: 9em;
+    left: 10em;
+}
+
+.tick_3 {
+    position: relative;
+    top: -22.2px;
+    right: -4.4px;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.hide{
+    display: none;
+}
