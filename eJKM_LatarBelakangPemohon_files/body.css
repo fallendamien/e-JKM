@@ -1,0 +1,1172 @@
+/* Defaults */
+
+/* Main Page */
+.main_normal {
+text-align: left;
+font-family: arial, sans-serif;
+font-size: 12px;
+color: #000000;
+}
+
+
+.form_contentsB{
+background: white
+font-family: arial, sans-serif;
+font-size: 12px;
+color: #000000;
+font-weight: normal;
+
+}
+
+.form_contentsC{
+background: white;
+font-family: arial, sans-serif;
+font-size: 12px;
+color: #000000;
+font-weight: normal;
+
+}
+
+.form_headerA {
+background: #FF9501;
+text-align: left;
+font-family: arial, sans-serif;
+font-size: 13px;
+color: #FFFFFF;
+font-weight: bold;
+height:15;
+}
+
+.form_headerB TD{
+background: url(../images/gradientred.jpg);
+border-bottom: hidden;
+height:10;
+}
+
+.main_user {
+font-family: arial, sans-serif;
+font-size: 13px;
+color: #FF0000;
+font-weight: bold
+}
+
+.main_pagenow {
+font-family: arial, sans-serif;
+font-size: 13px;
+color: #00CC66;
+font-weight: bold;
+}
+
+
+/* Body */
+.body {
+text-align: center;
+font-family: arial, sans-serif;
+font-size: 12px;
+color: #000;
+background: #FFFFFF;
+padding: 0;
+margin: 15px 0 5px;
+}
+.body,td,th {
+    font-family: arial, sans-serif; 
+	font-size: 12px;
+/*line-height: 20px; */
+}
+
+.fieldset {
+padding:10px;
+}
+
+/*------------------TABLE CSS---------------------*/
+
+
+.tableClass {
+background-color: #676767;
+table-layout:auto;
+width:98%;
+
+}
+
+.tableClass TD{
+padding-bottom:5px;
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+/*border: thin solid #33FFFF;*/
+
+}
+
+ .tableClassPapar {
+table-layout:auto;
+width:98%;
+}
+
+.tableClassPapar TH{
+text-transform: capitalize;
+
+}
+
+.tableClassPapar td {
+padding-bottom:5px;
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+}
+
+/*------------------TABLE CSS END---------------------*/
+
+.style33 {color: #666666}
+.style30 {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+/* Form */
+.form_header {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	height:15px;
+	background-color:#FEC517;
+	text-transform: uppercase;
+}
+
+.form_contents {
+font-family: arial, sans-serif;
+font-size: 12px;
+color: #000000;
+font-weight: normal;
+height:10;
+background-color:#FFFFFF;
+}
+
+.foldertreemodule {
+font-family: arial, sans-serif;
+font-size: 14px;
+color: #FF0000;
+font-weight: normal;
+}
+
+.foldertreesubmodule {
+font-family: arial, sans-serif;
+font-size: 13px;
+color: #00CC00;
+font-weight: normal;
+}
+
+.foldertreeaction {
+font-family: arial, sans-serif;
+font-size: 12px;
+color: #000000;
+font-weight: normal;
+}
+
+table { 
+empty-cell: show; 
+}
+
+.form_list_table_header {
+text-align: left;
+font-family: arial, sans-serif;
+font-size: 13px;
+background: #006699;
+color: white;
+font-weight: bold;
+height:10;
+padding: 3 pt;
+ 
+
+}
+
+.form_list_table_contents {
+
+text-align: left;
+font-family: arial, sans-serif;
+font-size: 12px;
+color: #000000;
+font-weight: normal;
+height:10;
+
+}
+
+.form_list_table_contents TD {
+padding: 3 pt;
+}
+
+.rsTable {
+border-collapse: collapse;
+border: 1px solid black;
+}
+
+.form_contents_title {
+font-family: arial, sans-serif;
+font-size: 12px;
+color: #000000;
+font-weight: bold;
+height:30;
+background: url(../images/dashed.gif) bottom left no-repeat;
+}
+
+
+
+.form_comments {
+font-family: arial, sans-serif;
+font-size: 12px;
+color: #000000;
+font-weight: normal;
+height:10;
+}
+
+/* Message Alert */
+
+.message_successful {
+text-align: center;
+font-family: arial, sans-serif;
+font-size: 15px;
+color: #0000FF;
+font-weight: bold;
+height:10;
+}
+
+.message_error {
+text-align: center;
+font-family: arial, sans-serif;
+font-size: 14px;
+color: #FF0000;
+font-weight: bold;
+}
+
+/* Comments */
+.comment_red {
+text-align: center;
+font-family: arial, sans-serif;
+font-size: 11px;
+color: #FF0000;
+font-weight: bold;
+}
+
+.comment_black {
+text-align: center;
+font-family: arial, sans-serif;
+font-size: 11px;
+color: #000;
+font-weight: bold;
+}
+
+/* Security */
+.security_welcome {
+text-align: center;
+font-family: arial, sans-serif;
+font-size: 13px;
+color: #000;
+font-weight: bold;
+}
+
+.security_alert {
+font-family: arial, sans-serif;
+font-size: 13px;
+color: #FF0000;
+font-weight: normal;
+}
+
+.security_item {
+font-family: arial, sans-serif;
+font-size: 15px;
+color: #000;
+font-weight: normal;
+}
+
+.security_button {
+text-align: right;
+font-family: arial, sans-serif;
+font-size: 13px;
+color: #000;
+font-weight: normal;
+}
+
+.security_red {
+text-align: center;
+font-family: arial, sans-serif;
+font-size: 10px;
+color: #FF0000;
+font-weight: bold;
+}
+
+.security_black {
+text-align: center;
+font-family: arial, sans-serif;
+font-size: 10px;
+color: #000;
+font-weight: bold;
+}
+
+/* Copyright layer */
+.copyright {
+background: #CCCCCC; 
+font-family: arial,sans-serif; 
+font-size: 10px; 
+font-weight: bold; 
+padding: 6px; 
+}
+
+
+/* Links */
+/*
+a:link {
+background: inherit;
+color: BLACK;
+text-decoration : none; 
+padding : 0;
+margin : 0;
+}
+
+
+a:visited {
+color: #000000;
+background : inherit; 
+text-decoration : none; 
+}
+
+a:active {
+color: #000000;
+background : inherit; 
+text-decoration : none; 
+}
+
+a:hover {
+color: #000000;
+background : inherit; 
+text-decoration : underline; 
+}
+*/
+/* ---------- CALENDAR CSS -------- */
+
+/* Calendar title */
+.titleStyle {
+	background-color: #FFCC00;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #000000;
+	padding: 5;
+	text-indent: 2;
+
+
+}
+
+/* Month Year and Fix */
+.headerStyle {
+	background-color: #FFECC8;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #79463C;
+	text-indent: 5;
+	padding-top: 2;
+
+	
+}
+
+/* Together these 2 define the color theme for the window */
+.borderColor {
+	background-color: #666666;
+}
+.innerColor {
+	background-color: #FFECC8;
+}
+
+/* Smart Nav Styles */
+.monthEntryStyle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+}
+.yearEntryStyle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+}
+.yearArrowStyle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+
+}
+
+
+/* Nav Style */
+.navStyle {
+	background-color: #c7b7b7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #452C28;
+
+}
+
+.weekdayHeaderStyle {
+	background-color: #FFCC33;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #000000;
+		border-left:1px solid #999999;
+	border-bottom:1px solid #999999;
+	/*border: 1px solid  #666666;*/
+	text-align:center;
+}
+
+/* Calendar Data Styles */
+
+.calander_table{
+/*border:1px solid  #666666;*/
+	border-right:1px solid #999999;
+	border-bottom:1px solid #999999;
+	border-top:1px solid #999999;
+margin: 5;
+}
+
+.todayStyle {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	border: 1px solid  #666666;
+	font-weight:bold;
+	text-align:center;
+	background-color: #006666;
+
+
+}
+
+.todayStyle a{ 
+	color:#ffffff;
+}
+.normalStyle  {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	border-left:1px solid #999999;
+	border-bottom:1px solid #999999;
+
+	/*border: 1px solid #666666;*/
+	padding: 2 px;
+	background-color:#FFFFFF;
+	text-align:center;
+
+}
+.dimStyle {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #b0b0b0;
+		border-left:1px solid #999999;
+	border-bottom:1px solid #999999;
+	/*border: 1px solid  #666666;*/
+	text-align:center;
+	background-color:#ffffff;
+}
+.linkStyle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	text-decoration: none;
+}
+
+/* Style for weekends */
+.weekendStyle {
+	background-color: #E4FDCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	border-left:1px solid #999999;
+	border-bottom:1px solid #999999;
+	/*border: 1px solid  #666666;*/
+	text-align:center;
+}
+.dimWeekendStyle {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #b0b0b0;
+		border-left:1px solid #999999;
+	border-bottom:1px solid #999999;
+	/*border: 1px solid  #666666;*/
+	text-align:center;
+	background-color: #E4FDCC;
+}
+
+/* Style for holidays */
+.holidayStyle {
+	background-color: #990000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #ffffff;
+
+
+}
+.holidayLinkStyle {
+	background-color: #990000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #ffffff;
+	text-decoration: underline;
+
+}
+
+.form_table {
+border-collapse: collapse;
+border: 1px solid #FF9501;
+/*border:none;*/
+}
+
+
+
+/* ---------- FOLDERTREE CSS -------- */
+
+/* Put this inside a @media qualifier so Netscape 4 ignores it */
+@media screen { 
+	/* Turn off list bullets */
+	ul.mktree  li { list-style: none; } 
+	/* Control how "spaced out" the tree is */
+	ul.mktree, ul.mktree ul , ul.mktree li { margin-left:10px; }
+	/* Provide space for our own "bullet" inside the LI */
+	ul.mktree  li           .bullet { padding-left: 15px; }
+	/* Show "bullets" in the links, depending on the class of the LI that the link's in */
+	ul.mktree  li.liOpen    .bullet { cursor: pointer; background: url(minus.gif)  center left no-repeat; }
+	ul.mktree  li.liClosed  .bullet { cursor: pointer; background: url(plus.gif)   center left no-repeat; }
+	ul.mktree  li.liBullet  .bullet { cursor: default; background: url(bullet.gif) center left no-repeat; }
+	/* Sublists are visible or not based on class of parent LI */
+	ul.mktree  li.liOpen    ul { display: block; }
+	ul.mktree  li.liClosed  ul { display: none; }
+	/* Format menu items differently depending on what level of the tree they are in */
+	ul.mktree  li { font-size: 10pt; font-family: Arial, Helvetica, sans-serif; font-weight: bold;}
+	ul.mktree  li ul li { font-size: 9pt; font-family: Arial, Helvetica, sans-serif; font-weight: normal; }
+	ul.mktree  li ul li ul li { font-size: 8pt; font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+	ul.mktree  ul li ul li ul li li { font-size: 7pt; font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+}
+
+
+
+
+.style2 {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.style6 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.style7 {
+	COLOR: #ffffff
+}
+
+.style8z {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #e82f37; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+.style8 {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: RED;
+}
+.style10 {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.style12 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+.style18 {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.style19 {
+	FONT-SIZE: 9px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.style20 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.style22 {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #e82f37; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color:#628BBD;    
+}
+
+/* ============================TAB TYPE 1============================= */
+
+.styleOrange {
+	/*background-color:#FFFFFF;*/
+	border:none;
+	FONT-SIZE: 11px;
+	text-align:center;
+	COLOR: #000000;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border-collapse:collapse;
+}
+
+.styleOrange td {
+    padding: 5px 1px;
+}
+
+.styleOrangeTab a{
+	FONT-WEIGHT: normal;
+	COLOR: #000000;
+	background:url('active_tab2.png') no-repeat;
+	text-decoration:none;
+	}
+	
+.styleOrangeTab a:hover{COLOR: #FFFFFF;
+	text-decoration:none;	}
+
+.styleOrangeTab span
+{
+background: url("active_tabheader2.png") right top no-repeat;
+padding-right: 10px;
+padding-left: 10px;
+}
+
+.styleOrangeTab a, styleOrangeTab span
+{display: block;
+height:20px;
+}
+
+.styleOrangeTabActive a{
+	/*background-color:#FEC517;*/
+	/*border-color:#FEC517;*/
+	FONT-WEIGHT: bold;
+	COLOR: #000000;
+	background:url('active_tab1.png') no-repeat;
+	height: 20px;
+	
+} 
+
+.styleOrangeTabActive span
+{
+background: url("active_tabheader1.png") right top no-repeat;
+border:0 px;
+padding-right: 10px;
+padding-left: 10px;
+
+}
+
+.styleOrangeTabActive a, styleOrangeTabActive span
+{
+display: block;
+height:20px;
+/*background-color:#FEC517;*/
+border:0px;
+}
+ 
+.styleOrangeHR {
+color:#FEC517;
+border:1px solid;
+}
+
+/* ============================TAB TYPE 2============================= */
+
+.styleOrangeTab2{background:url("tab_middleNotActive.png");
+}
+	
+.styleOrangeTab2 a{
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	text-decoration: none;
+	}
+	
+.styleOrangeTab2 a:hover{
+
+	COLOR: #FFFFFF;
+	text-decoration:none;
+	}
+	
+.tabFront
+{	background:url("tab_leftNotActive.png") right top no-repeat;}
+
+.tabBack
+{	background:url("tab_rightNotActive.png") left top no-repeat;}
+
+.styleOrangeTabActive2{
+	background:url('tab_middleActive.png');
+	text-decoration:none;
+
+} 
+
+.styleOrangeTabActive2 a
+{	
+	border:0px;
+	FONT-WEIGHT: bold;
+	COLOR: #000000;
+} 
+
+.tabFrontActive
+{	background:url("tab_leftActive.png") right top no-repeat;}
+
+.tabBackActive
+{	background:url("tab_rightActive.png") left top no-repeat;}
+	
+/* ============================END===================================== */
+
+/* ============================SIDE TAB================================ */
+
+.td_borderPage {
+border:none;
+border-bottom: 2px #FEC517 solid;
+border-top: 2px #FEC517 solid;
+border-right: 2px #FEC517 solid;
+}
+
+.td_borderPage2 {
+border:none;
+border-bottom: 2px #FEC517 solid;
+border-top: 2px #FEC517 solid;
+border-left: 2px #FEC517 solid;
+background-color:#FEC517;
+}
+
+
+.td_borderTabA {
+border-left-width:20px;
+border-left-color:#FEC517;
+border-left-style:solid;
+border-right:none ;
+background:url('tab_corner1.png') #ffffff top left no-repeat;
+font-weight:bold;
+text-align:center;
+}
+
+
+.td_borderTabB {
+border-left-width:20px;
+border-left-color:#FEC517;
+border-left-style:solid;
+background:url('tab_corner2.png') #ffffff bottom left no-repeat;
+}
+
+.td_borderTabC{
+background:url('tab_corner4.png') bottom right no-repeat;
+
+}
+
+.td_borderTabD{
+background:url('tab_corner3.png') top right no-repeat;
+
+}
+
+/* ============================END SIDE TAB================================= */
+
+/* ============================2ND SIDE TAB================================= */
+
+.tdSpace
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:center;
+}
+
+.tdSpace TD
+{
+height: 30px;
+width: 100px;
+padding-bottom:5px;
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+}
+
+
+.tdActive
+{
+background:#FEC517;
+border:1.5px dashed #000000;
+}
+
+.tdActive a
+{
+text-decoration:underline;
+font-weight:bold;
+color:#000000;
+}
+
+.tdNotActive
+{
+background:#BEBEBE;
+}
+
+.tdNotActive a
+{
+text-decoration:none;
+color:#666666;
+}
+
+.tdNotActive a:hover
+{
+font-weight:bold;
+color:#000000;
+
+}
+
+.tdActive a:hover
+{
+color:#000000;
+}
+
+
+.tdActive1
+{
+background-image: url(tab_blue1.png);
+background-color: #76BDFF;
+background-repeat:no-repeat;
+background-position:top;
+}
+
+.tdActive2
+{
+background-image: url(tab_blue2.png);
+background-color: #76BDFF;
+background-repeat:no-repeat;
+background-position:top;
+}
+
+.tdActive3
+{
+background-image: url(tab_blue3.png);
+background-color: #76BDFF;
+background-repeat:no-repeat;
+background-position:bottom;
+}
+
+.tdActive4
+{
+background-image: url(tab_blue4.png);
+background-color: #76BDFF;
+background-repeat:no-repeat;
+background-position:bottom;
+}
+
+
+
+
+.tdNotActive1
+{
+background-image: url(tab_grey1.png);
+background-color: #BEBEBE;
+background-repeat:no-repeat;
+background-position:top;
+}
+
+.tdNotActive2
+{
+background-image: url(tab_grey2.png);
+background-color: #BEBEBE;
+background-repeat:no-repeat;
+background-position:top;
+}
+
+
+.tdNotActive3
+{
+background-image: url(tab_grey3.png);
+background-color: #BEBEBE;
+background-repeat:no-repeat;
+background-position:bottom;
+}
+
+.tdNotActive4
+{
+background-image: url(tab_grey4.png);
+background-color: #BEBEBE;
+background-repeat:no-repeat;
+background-position:bottom;
+}
+
+
+/* ============================END 2ND SIDE TAB================================= */
+
+
+.menu_grey {
+font-family: arial, sans-serif;
+font-size: 12px;
+color: #000000;
+font-weight: normal;
+height:10;
+background-color:#EFEFEF;
+background-color:#EFEFEF;padding:4pt;border-right:hidden
+}
+
+.table_grey {
+font-family: arial, sans-serif;
+font-size: 12px;
+color: #000000;
+font-weight: normal;
+height:10;
+background-color:#EFEFEF;
+}
+
+.table_side_menu{
+
+font-family: arial, sans-serif;
+font-size: 12px;
+color: #000000;
+font-weight: normal;
+height:10;
+background-color:#FEC517;
+}
+
+.table_side_menu td{
+padding:4pt;
+
+}
+
+.table_side_menu a{
+text-decoration:none;
+color:#000000;}
+
+.table_side_menu a:hover{
+font-weight:bold;}
+
+
+.form_contents_grey {
+font-family: arial, sans-serif;
+font-size: 12px;
+color: #000000;
+font-weight: normal;
+height:10;
+background-color:#EFEFEF;
+padding:4pt;
+}
+
+.navigationActive
+{
+	FONT-WEIGHT: bold;
+	COLOR: #000000;
+}
+
+.navigation a
+{
+color: #000;
+background: #fb0 url("active_tabheader.png") left top no-repeat;
+text-decoration: none;
+padding-left: 10px
+}
+
+.navigation a span
+{
+background: url("active_tabheader1.png") right top no-repeat;
+padding-right: 15px
+}
+
+.navigation a, #navigation a span
+{
+display: block;
+float: left
+}
+
+/* Commented backslash hack hides rule from IE5-Mac \*/
+.navigation a, #navigation a span
+{
+float: none
+}
+/* End IE5-Mac hack */
+
+.navigation a:hover
+{
+color: #FFFFFF;
+/*background: #26a url("active_tabheader.png") left top no-repeat;*/
+text-decoration: none;
+padding-left: 10px
+}
+
+.navigation a:hover span
+{
+/*background: url("active_tabheader1.png") right top no-repeat;*/
+padding-right: 15px
+}
+
+.navigation
+{
+list-style: none;
+padding: 0;
+margin: 0
+}
+
+.navigation li
+{
+float: left;
+display: block;
+margin: 0;
+padding: 0
+}
+
+.orangeBorder
+{
+border: 2px #FEC517 solid; }
+
+/*===========================Table thin border ==================================*/
+
+
+.tabletest
+{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+
+.tabletest td
+{
+	border:1px solid black;
+}
+
+.tabletest tr
+{
+	border:1px solid black;
+}
+
+.tabletest td
+{
+	border:1px solid black;
+}
+
+.tabletest th
+{
+	border:1px solid black;
+}
+
+/*===========================Human Figure Interactive=============================*/
+
+.humanFigure
+{
+font-family:Arial, Helvetica, sans-serif;
+color:#000000;
+text-decoration:none;
+}
+
+.humanFigure a
+{
+color:#000000;
+text-decoration:none;
+}
+
+.humanFigure a:hover
+{
+color:#FF0000;
+cursor:pointer;
+}
+
+/*=======================SMP decoration=======================================*/
+
+.smp
+{
+background: url("ok.jpg") center bottom no-repeat;
+}
+
+/*=============================================================================*/
+
+
+/*==================================View TextArea===================================*/
+.taView
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+padding: 5px;
+border: 1px solid #FEC517;
+scrollbar-track-color:rgb(254,227,196);
+scrollbar-face-color:#FEC517;
+scrollbar-3dlight-color:rgb(90,65,42);
+scrollbar-highlight-color:rgb(254,212,167);
+scrollbar-darkshadow-color:rgb(91,85,82);
+scrollbar-shadow-color:rgb(69,26,1);
+scrollbar-arrow-colorlack:#FEC517 ;
+}
+
+/*=================================================================================*/
+
+/*Nora==================================View Textfield===================================*/
+.tfView
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+padding: 5px;
+border: 1px solid #FEC517;
+scrollbar-track-color:rgb(254,227,196);
+scrollbar-face-color:#FEC517;
+scrollbar-3dlight-color:rgb(90,65,42);
+scrollbar-highlight-color:rgb(254,212,167);
+scrollbar-darkshadow-color:rgb(91,85,82);
+scrollbar-shadow-color:rgb(69,26,1);
+scrollbar-arrow-colorlack:#FEC517 ;
+text-align:center;
+}
+
+/*=================================================================================*/
+
+
+/*===========================bary add ======================================================*/
+  .modal-overlay  
+  {  
+      position:fixed;  
+      top:0;  
+      right:0;  
+      bottom:0;  
+      left:0;  
+      height:100%;  
+     width:100%;  
+     margin:0;  
+     padding:0;  
+     /*background:#fff;  */
+     opacity:100;  
+     filter: alpha(opacity=100);  
+     -moz-opacity: 100; 
+     z-index:9;  
+ }  
+ .modal-window  
+ {  
+     position:fixed;  
+     top:0;  
+     left:0;  
+     margin:0;  
+     padding:0;  
+     z-index:9; 
+border: 1px solid #000;	  
+ }  
+ .close-window  
+ {  
+     position:absolute;  
+     width:32px;  
+     height:32px;  
+     right:8px;  
+     top:8px;  
+     background:transparent url('/examples/modal-simple/close-button.png') no-repeat scroll right top;  
+     text-indent:-99999px;  
+     overflow:hidden;  
+     cursor:pointer;  
+     opacity:.5;  
+     filter: alpha(opacity=50);  
+     -moz-opacity: 0.5;  
+ }  
+ .close-window:hover  
+ {  
+     opacity:.99;  
+     filter: alpha(opacity=99);  
+     -moz-opacity: 0.99;  
+ }  
+ 
+ .white {
+			background-color:lightgrey;
+			}
+
+* html .modal-window{ /* ie6 hack */
+  position: absolute;
+  height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+===============input area (calculation result)=======================
+.calc_input
+{
+border: 1px #FEC517 solid;
+background: #FFFAD2;
+
+}
+
+
