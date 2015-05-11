@@ -1,8 +1,9 @@
 [src*="semakanSMOKU"] {
-height:1px;
-width: 1px;
+height:0px;
+width: 0px;
 background-image: url(../icon/SemakanSMOKU.svg) !important;
-background-size: 100% !important;
-display: inline;
+background-repeat:no-repeat;
+padding: 2.1em;
+padding-bottom: 4em;
 }
 
