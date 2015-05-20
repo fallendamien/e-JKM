@@ -1,4 +1,4 @@
-[src*="semakanSMOKU"] {
+[src*="semakanSMOKU.jpg"] {
 height:0px;
 width: 0px;
 background-image: url(../icon/SemakanSMOKU.svg) !important;
@@ -7,3 +7,20 @@ padding: 2.1em;
 padding-bottom: 4em;
 }
 
+[src*="semakanBantuan.jpg"] {
+height:0px;
+width: 0px;
+background-image: url(../icon/SemakanBantuan.svg) !important;
+background-repeat:no-repeat;
+padding: 2.1em;
+padding-bottom: 4em;
+}
+
+[src*="cetakSuratKanak2.png"] {
+height:0px;
+width: 0px;
+background-image: url(../icon/CetakSurat.svg) !important;
+background-repeat:no-repeat;
+padding: 2.1em;
+padding-bottom: 4em;
+}
